@@ -1,4 +1,0 @@
-- name: install mysql
-  apt: name=mysql-server state=present
-  notify:
-    - reload apache
