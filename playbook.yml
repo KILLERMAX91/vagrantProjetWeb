@@ -7,3 +7,6 @@
     - apache
     - mysql
     - php
+    - node
+    - yarn
+    - mongodb
