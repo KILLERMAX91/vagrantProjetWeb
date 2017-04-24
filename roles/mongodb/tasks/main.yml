@@ -13,3 +13,8 @@
 
 - name: install mongo
   apt: name=mongodb-org state=present
+
+- name: install php5-mongo
+  apt: name=php5-mongo state=present
+  notify:
+    - reload apache
