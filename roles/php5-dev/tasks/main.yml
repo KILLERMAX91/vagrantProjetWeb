@@ -1,0 +1,4 @@
+- name: install php5-dev
+  apt: name=php5-dev state=present
+  notify:
+    - reload apache

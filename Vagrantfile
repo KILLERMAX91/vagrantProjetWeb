@@ -44,5 +44,5 @@ SCRIPT
 	end
   end
 
-  
+  config.vm.provision "shell", path: "bash/script/composer.sh"
 end

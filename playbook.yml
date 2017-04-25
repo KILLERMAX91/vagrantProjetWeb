@@ -4,9 +4,14 @@
     - name: update apt cache
       apt: update_cache=yes
   roles:
+    - curl
+    - git
     - apache
     - mysql
     - php
+    - php5-cli
+    - php5-dev
     - node
     - yarn
     - mongodb
+    - rabbitmq
