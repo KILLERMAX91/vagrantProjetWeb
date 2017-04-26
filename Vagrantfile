@@ -45,4 +45,5 @@ SCRIPT
   end
 
   config.vm.provision "shell", path: "bash/script/composer.sh"
+  config.vm.provision "shell", path: "bash/script/php.sh"
 end
